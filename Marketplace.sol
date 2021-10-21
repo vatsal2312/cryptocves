@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "./NFT.sol";
 import "./Token.sol";
-import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
+import "./IERC721Receiver.sol";
 
 /// @title Marketplace contract
 contract Marketplace is IERC721Receiver {
